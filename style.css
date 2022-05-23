@@ -12,19 +12,21 @@ color:#1F2937 ;
 font-size: 40px;
 }
 .showcase{
+  display: flex;
   padding-left: 30px;
   flex-direction:row ;
-  flex-wrap: nowrap;
   background:#ffff;
 
 }
 .showcase-image{
-  justify-content:flex-end ;
+  margin-left:950px;
 }
 
-.illustration-image{
-  justify-content:space-around;
-  align-items: center;
+.illustration-container{
+  display: flex;
+  flex-direction: row;
+  margin-top:50px ;
+  justify-content: space-between;
 }
 
 .about{
@@ -59,7 +61,7 @@ align-items:center ;
 
 .testimonial{
 
-width: 500px;
+width: 1000px;
 height: 450px;
 background-color: #bcbcbc;
 font-size: 50px;
